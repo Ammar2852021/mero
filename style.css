@@ -33,8 +33,10 @@ body {
   font-weight: 700;
 }
 .card p {
-  margin: 0 0 15px;
-  color: #546e7a;
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
 }
 
 .btn {
@@ -786,5 +788,12 @@ body {
   }
   100% {
     transform: rotate(-125deg);
+  }
+}
+
+@media screen and (max-width:767px) {
+  .btn + .btn {
+    margin-top: 10px;
+    margin-left: 0px;
   }
 }
