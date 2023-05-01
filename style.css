@@ -34,9 +34,9 @@ body {
 }
 .card p {
   margin: 0 0 10px;
-  font-size: 24px;
+  font-size: 18px;
   color: black;
-  font-weight: 700;
+  
 }
 
 .btn {
@@ -48,11 +48,10 @@ body {
   font-weight: 800;
   font-size: 16px;
   cursor: pointer;
-  box-shadow: 0 2px 6px #0001;
 }
-.btn:hover {
+/* .btn:hover {
   box-shadow: 0 3px 15px #0002;
-}
+} */
 .btn + .btn {
   margin-left: 10px;
 }
@@ -791,9 +790,11 @@ body {
   }
 }
 
+
 @media screen and (max-width:767px) {
   .btn + .btn {
     margin-top: 10px;
     margin-left: 0px;
   }
 }
+
